@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.card-container {
+    background: orange;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+.card {
+    background: green;
+    width: 70px;
+    height: 70px;
+}
