@@ -5,14 +5,36 @@ body {
 }
 
 .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: orange;
-    height: 100px;
-    width: 100px;
     margin: 10px;
 }
 
-.card {
-    background: green;
-    width: 70px;
-    height: 70px;
+.card-image {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    transition-duration: 0.1s;
+}
+
+.card-image:hover {
+    transform: scale(1.1);
+    transition-duration: 0.1s;
+}
+
+.card-description-container {
+    display: flex;
+    align-items: center;
+}
+
+.card-description {
+    margin: 10px;
+    width: 300px;
+}
+
+.toolbar {
+    margin: 10px;
 }
