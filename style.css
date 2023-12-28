@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: orange;
+    margin: 10px;
+}
+
+.card-image {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    transition-duration: 0.1s;
+}
+
+.card-image:hover {
+    transform: scale(1.1);
+    transition-duration: 0.1s;
+}
+
+.card-description-container {
+    display: flex;
+    align-items: center;
+}
+
+.card-description {
+    margin: 10px;
+    width: 300px;
+}
+
+.toolbar {
+    margin: 10px;
+}
