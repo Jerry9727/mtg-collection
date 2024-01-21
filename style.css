@@ -18,6 +18,7 @@ body {
     height: auto;
     margin: 10px;
     transition-duration: 0.1s;
+    border-radius: 13px;
 }
 
 .card-image:hover {
@@ -31,10 +32,13 @@ body {
 }
 
 .card-description {
-    margin: 10px;
     width: 300px;
 }
 
 .toolbar {
     margin: 10px;
+}
+
+.mana-cost-icon {
+    width: 15px;
 }

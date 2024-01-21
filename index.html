@@ -5,22 +5,26 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <link rel="icon" href="resources/img/favicon.png">
-    <title>MTG Collection</title>
+    <title>MTG Collector</title>
 </head>
 
 <body>
-    <h1>MTG Collection</h1>
+    <h1>MTG Collector</h1>
     <div>Oh look, a card!</div>
     <div class="card-container">
         <div class="card-description-container">
-            <img src="resources/c16-143-burgeoning.png" class="card-image">
-            <div class="card-description"></div>
+            <img src="" class="card-image">
+            <div class="card detail-container">
+                <div class="card-title"></div>
+                <div class="card-mana-cost"></div>
+                <div class="card-description"></div>
+            </div>
         </div>
         <div class="toolbar">
             <input type="checkbox" id="card-checkbox">
             <label for="card-checkbox">Owned?</label>
+            <button onclick="fillInDetails()">Reload</button>
         </div>
     </div>
 </body>
-<div>asd</div>
 </html>
