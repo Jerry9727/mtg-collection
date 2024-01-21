@@ -32,10 +32,13 @@ body {
 }
 
 .card-description {
-    margin: 10px;
     width: 300px;
 }
 
 .toolbar {
     margin: 10px;
+}
+
+.mana-cost-icon {
+    width: 15px;
 }
