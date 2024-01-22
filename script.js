@@ -1,5 +1,5 @@
 function getRandomCard() {
-    return new Promise (function (resolve, reject) {
+    return new Promise(function (resolve, reject) {
         fetch('https://api.scryfall.com/cards/random', {
             method: 'GET'
         }).then(res => {
