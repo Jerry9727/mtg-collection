@@ -14,22 +14,21 @@
 <body>
     <h1>MTG Collector</h1>
     <div>Oh look, a card!</div>
-    <div class="card-container">
-        <div class="card-description-container">
-            <img src="" class="card-image">
-            <div class="card detail-container">
-                <i class="ms ms-u ms-cost ms-shadow"></i>
-                <i class="fa-solid fa-user"></i>
-                <i class="ss ss-afr"></i>
-                <div class="card-title"></div>
-                <div class="card-mana-cost"></div>
-                <div class="card-description"></div>
+    <div class="card-display-container">
+        <div class="card-container">
+            <div class="card-description-container">
+                <img src="" class="card-image">
+                <div class="card detail-container">
+                    <div class="card-title"></div>
+                    <div class="card-mana-cost"></div>
+                    <div class="card-description"></div>
+                </div>
             </div>
-        </div>
-        <div class="toolbar">
-            <input type="checkbox" id="card-checkbox">
-            <label for="card-checkbox">Owned?</label>
-            <button onclick="fillInDetails()">Reload</button>
+            <div class="toolbar">
+                <input type="checkbox" id="card-checkbox">
+                <label for="card-checkbox">Owned?</label>
+                <button onclick="fillInDetails()">Reload</button>
+            </div>
         </div>
     </div>
 </body>
