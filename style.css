@@ -11,6 +11,8 @@ body {
     align-items: center;
     background: orange;
     margin: 10px;
+    border-radius: 13px;
+    max-width: 100%;
 }
 
 .card-image {

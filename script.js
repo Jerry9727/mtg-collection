@@ -1,3 +1,8 @@
+const manaMaster = () => {
+    fetch("/resources/mana-master.mana-master.json")
+}
+console.log(manaMaster)
+
 function getRandomCard() {
     return new Promise(function (resolve, reject) {
         fetch('https://api.scryfall.com/cards/random', {
@@ -18,6 +23,7 @@ async function fillInDetails() {
 }
 
 function insertIcons(text) {
+    let obj = JSON.parse()
     return text.replace(/{[\d]}/, '<img src="resources/mana_one.svg" class="mana-cost-icon"></img>');
 };
 
