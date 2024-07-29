@@ -4,6 +4,17 @@ body {
     margin: 10px;
 }
 
+.card-display-container-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+    margin: 10px;
+    border-radius: 13px;
+    max-width: 100%;
+}
+
 .card-container {
     display: flex;
     flex-direction: column;
@@ -12,7 +23,7 @@ body {
     background: orange;
     margin: 10px;
     border-radius: 13px;
-    max-width: 100%;
+
 }
 
 .card-image {
@@ -35,6 +46,7 @@ body {
 
 .card-description {
     width: 300px;
+    margin-right: 10px;
 }
 
 .toolbar {
